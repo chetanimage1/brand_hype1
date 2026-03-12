@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "FashionHub Online",
+    "logo": "https://via.placeholder.com/150x80/4A90E2/ffffff?text=FashionHub"
+  },
+  {
+    "id": 2,
+    "name": "TechStart Inc",
+    "logo": "https://via.placeholder.com/150x80/50C878/ffffff?text=TechStart"
+  },
+  {
+    "id": 3,
+    "name": "Urban Dental Clinic",
+    "logo": "https://via.placeholder.com/150x80/FF6B6B/ffffff?text=Urban+Dental"
+  },
+  {
+    "id": 4,
+    "name": "CloudFlow Solutions",
+    "logo": "https://via.placeholder.com/150x80/9B59B6/ffffff?text=CloudFlow"
+  },
+  {
+    "id": 5,
+    "name": "Green Earth Landscaping",
+    "logo": "https://via.placeholder.com/150x80/2ECC71/ffffff?text=Green+Earth"
+  },
+  {
+    "id": 6,
+    "name": "Fitness First Gyms",
+    "logo": "https://via.placeholder.com/150x80/E74C3C/ffffff?text=Fitness+First"
+  },
+  {
+    "id": 7,
+    "name": "Legal Partners LLP",
+    "logo": "https://via.placeholder.com/150x80/34495E/ffffff?text=Legal+Partners"
+  },
+  {
+    "id": 8,
+    "name": "Gourmet Bites Restaurant",
+    "logo": "https://via.placeholder.com/150x80/F39C12/ffffff?text=Gourmet+Bites"
+  }
+]

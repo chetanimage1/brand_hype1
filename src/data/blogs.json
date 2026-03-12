@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "10 SEO Trends You Can't Ignore in 2024",
+    "excerpt": "Stay ahead of the curve with these essential SEO trends that will dominate search rankings this year. From AI-powered search to voice optimization.",
+    "author": "Jennifer Smith",
+    "date": "2024-03-15",
+    "category": "SEO",
+    "image": "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "readTime": "5 min"
+  },
+  {
+    "id": 2,
+    "title": "How to Create a Social Media Strategy That Actually Works",
+    "excerpt": "Learn the proven framework for building a social media strategy that drives real business results, not just vanity metrics.",
+    "author": "Mike Johnson",
+    "date": "2024-03-10",
+    "category": "Social Media",
+    "image": "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "readTime": "7 min"
+  },
+  {
+    "id": 3,
+    "title": "Google Ads vs Facebook Ads: Which is Right for Your Business?",
+    "excerpt": "A comprehensive comparison of the two advertising giants. Discover which platform will give you the best ROI for your specific business goals.",
+    "author": "Sarah Williams",
+    "date": "2024-03-05",
+    "category": "PPC",
+    "image": "https://images.pexels.com/photos/265673/pexels-photo-265673.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "readTime": "6 min"
+  },
+  {
+    "id": 4,
+    "title": "Content Marketing 101: A Beginner's Guide to Success",
+    "excerpt": "Everything you need to know to start creating content that attracts, engages, and converts your ideal customers.",
+    "author": "David Brown",
+    "date": "2024-02-28",
+    "category": "Content Marketing",
+    "image": "https://images.pexels.com/photos/261662/pexels-photo-261662.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "readTime": "8 min"
+  },
+  {
+    "id": 5,
+    "title": "Email Marketing Best Practices for Higher Open Rates",
+    "excerpt": "Boost your email campaign performance with these proven tactics for writing subject lines and content that people actually want to read.",
+    "author": "Emily Davis",
+    "date": "2024-02-20",
+    "category": "Email Marketing",
+    "image": "https://images.pexels.com/photos/4065876/pexels-photo-4065876.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "readTime": "5 min"
+  },
+  {
+    "id": 6,
+    "title": "The Ultimate Guide to Conversion Rate Optimization",
+    "excerpt": "Transform your website into a conversion machine with these data-backed CRO strategies that leading brands use to maximize their results.",
+    "author": "Jennifer Smith",
+    "date": "2024-02-15",
+    "category": "CRO",
+    "image": "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "readTime": "10 min"
+  }
+]

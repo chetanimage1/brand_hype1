@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Growth Campaign",
+    "client": "FashionHub Online",
+    "category": "SEO & PPC",
+    "description": "Increased organic traffic by 250% and revenue by 180% in 6 months through comprehensive SEO and targeted Google Ads campaigns.",
+    "image": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "results": {
+      "traffic": "+250%",
+      "revenue": "+180%",
+      "conversion": "+45%"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Brand Awareness Campaign",
+    "client": "TechStart Inc",
+    "category": "Social Media",
+    "description": "Built a thriving social media community of 100K+ followers and generated 500+ qualified leads through strategic content marketing.",
+    "image": "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "results": {
+      "followers": "+100K",
+      "engagement": "+320%",
+      "leads": "500+"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Local SEO Domination",
+    "client": "Urban Dental Clinic",
+    "category": "Local SEO",
+    "description": "Achieved #1 rankings for 15 competitive local keywords, resulting in 400% increase in appointment bookings.",
+    "image": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "results": {
+      "rankings": "15 #1 Keywords",
+      "bookings": "+400%",
+      "reviews": "+85 5-star"
+    }
+  },
+  {
+    "id": 4,
+    "title": "SaaS Launch Strategy",
+    "client": "CloudFlow Solutions",
+    "category": "Full Digital Marketing",
+    "description": "Executed a complete launch strategy including website design, content marketing, and paid ads resulting in 1000+ signups in first month.",
+    "image": "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "results": {
+      "signups": "1000+",
+      "mql": "250+",
+      "conversion": "25%"
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What services do you offer?",
+    "answer": "We offer a full range of digital marketing services including SEO, social media marketing, Google Ads management, content marketing, email marketing, and web design & development. We create customized strategies tailored to your business goals."
+  },
+  {
+    "id": 2,
+    "question": "How long does it take to see results?",
+    "answer": "Results vary depending on the service and your current situation. PPC campaigns can show results within days, while SEO typically takes 3-6 months to see significant improvements. We provide regular reports so you can track progress throughout our partnership."
+  },
+  {
+    "id": 3,
+    "question": "What is your pricing structure?",
+    "answer": "We offer flexible pricing models including monthly retainers, project-based fees, and performance-based pricing. Every business is unique, so we create custom proposals based on your specific needs and goals. Contact us for a free consultation and quote."
+  },
+  {
+    "id": 4,
+    "question": "Do you work with small businesses?",
+    "answer": "Absolutely! We work with businesses of all sizes, from startups to enterprise companies. We believe every business deserves access to effective digital marketing, and we scale our services to fit your budget and objectives."
+  },
+  {
+    "id": 5,
+    "question": "What makes your agency different?",
+    "answer": "We focus on data-driven strategies that deliver measurable ROI. Our team consists of certified specialists in each area of digital marketing. We provide transparent reporting, dedicated account management, and we treat your business like our own."
+  },
+  {
+    "id": 6,
+    "question": "Do you require long-term contracts?",
+    "answer": "We offer both contract and month-to-month options. While we recommend at least 6 months for services like SEO to see optimal results, we're confident in our work and don't believe in locking clients into agreements they're not comfortable with."
+  },
+  {
+    "id": 7,
+    "question": "Can you guarantee results?",
+    "answer": "While we can't guarantee specific rankings or outcomes (beware of agencies that do!), we can guarantee our best effort, proven strategies, transparent communication, and data-backed recommendations. Our track record speaks for itself."
+  },
+  {
+    "id": 8,
+    "question": "What industries do you specialize in?",
+    "answer": "We've successfully worked with clients across various industries including e-commerce, healthcare, technology, professional services, hospitality, and more. Our strategies are adaptable and customized for each industry's unique challenges and opportunities."
+  }
+]

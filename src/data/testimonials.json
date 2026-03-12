@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Johnson",
+    "position": "CEO",
+    "company": "FashionHub Online",
+    "testimonial": "Working with this agency transformed our online presence completely. Their SEO and PPC strategies delivered results beyond our expectations. We've seen a 180% increase in revenue!",
+    "rating": 5,
+    "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 2,
+    "name": "Michael Chen",
+    "position": "Founder",
+    "company": "TechStart Inc",
+    "testimonial": "The team's expertise in social media marketing is unmatched. They helped us build a community of engaged followers and generate quality leads consistently. Highly recommend!",
+    "rating": 5,
+    "image": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Emily Rodriguez",
+    "position": "Owner",
+    "company": "Urban Dental Clinic",
+    "testimonial": "Their local SEO service brought us to the top of search results. We now get more patients than we can handle! Professional, responsive, and results-driven.",
+    "rating": 5,
+    "image": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 4,
+    "name": "James Mitchell",
+    "position": "Marketing Director",
+    "company": "CloudFlow Solutions",
+    "testimonial": "From website design to launch strategy, they handled everything perfectly. Our SaaS product gained 1000+ users in the first month. Couldn't be happier!",
+    "rating": 5,
+    "image": "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 5,
+    "name": "Lisa Anderson",
+    "position": "Owner",
+    "company": "Green Earth Landscaping",
+    "testimonial": "Their content marketing strategy helped establish us as industry leaders. Our blog now drives 60% of our qualified leads. Worth every penny!",
+    "rating": 5,
+    "image": "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+  {
+    "id": 6,
+    "name": "Robert Taylor",
+    "position": "CEO",
+    "company": "Fitness First Gyms",
+    "testimonial": "We tried several agencies before finding this one. Their data-driven approach and transparent reporting made all the difference. Our membership grew 200% this year!",
+    "rating": 5,
+    "image": "https://images.pexels.com/photos/1516644/pexels-photo-1516644.jpeg?auto=compress&cs=tinysrgb&w=400"
+  }
+]

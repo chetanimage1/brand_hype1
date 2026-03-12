@@ -1,0 +1,93 @@
+import Hero from '../../components/Hero/Hero';
+import faq from '../../data/faq.json';
+import './Contact.css';
+
+function Contact() {
+  return (
+    <div className="contact-page">
+      <Hero
+        title="Get In Touch"
+        subtitle="Let's discuss how we can help grow your business"
+      />
+
+      <section className="contact-section">
+        <div className="container">
+          <div className="contact-grid">
+            <div className="contact-form-container">
+              <h2>Send Us a Message</h2>
+              <form className="contact-form">
+                <div className="form-group">
+                  <label>Name</label>
+                  <input type="text" placeholder="Your Name" />
+                </div>
+                <div className="form-group">
+                  <label>Email</label>
+                  <input type="email" placeholder="your@email.com" />
+                </div>
+                <div className="form-group">
+                  <label>Company</label>
+                  <input type="text" placeholder="Your Company" />
+                </div>
+                <div className="form-group">
+                  <label>Service Interested In</label>
+                  <select>
+                    <option>Select a service</option>
+                    <option>SEO</option>
+                    <option>Social Media Marketing</option>
+                    <option>Google Ads</option>
+                    <option>Content Marketing</option>
+                    <option>Email Marketing</option>
+                    <option>Web Design</option>
+                  </select>
+                </div>
+                <div className="form-group">
+                  <label>Message</label>
+                  <textarea rows="5" placeholder="Tell us about your project"></textarea>
+                </div>
+                <button type="submit" className="submit-button">Send Message</button>
+              </form>
+            </div>
+
+            <div className="contact-info-container">
+              <h2>Contact Information</h2>
+              <div className="contact-info">
+                <div className="info-item">
+                  <h3>Email</h3>
+                  <p>info@digitalagency.com</p>
+                </div>
+                <div className="info-item">
+                  <h3>Phone</h3>
+                  <p>(555) 123-4567</p>
+                </div>
+                <div className="info-item">
+                  <h3>Address</h3>
+                  <p>123 Marketing Street<br />City, State 12345</p>
+                </div>
+                <div className="info-item">
+                  <h3>Hours</h3>
+                  <p>Monday - Friday<br />9:00 AM - 6:00 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="faq-section gray-bg">
+        <div className="container">
+          <h2 className="section-title">Frequently Asked Questions</h2>
+          <div className="faq-grid">
+            {faq.map(item => (
+              <div key={item.id} className="faq-item">
+                <h3 className="faq-question">{item.question}</h3>
+                <p className="faq-answer">{item.answer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default Contact;

@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Jennifer Smith",
+    "position": "CEO & Founder",
+    "bio": "15+ years of digital marketing experience. Led campaigns for Fortune 500 companies.",
+    "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Mike Johnson",
+    "position": "Head of SEO",
+    "bio": "Google certified SEO specialist with proven track record of ranking websites on page 1.",
+    "image": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Sarah Williams",
+    "position": "Social Media Director",
+    "bio": "Built and managed social communities for brands with millions of followers.",
+    "image": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  },
+  {
+    "id": 4,
+    "name": "David Brown",
+    "position": "Content Strategist",
+    "bio": "Award-winning content creator and strategist. Crafts stories that convert.",
+    "image": "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Emily Davis",
+    "position": "PPC Specialist",
+    "bio": "Google Ads certified professional managing $5M+ in annual ad spend.",
+    "image": "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Alex Martinez",
+    "position": "Web Developer",
+    "bio": "Full-stack developer specializing in high-performance, conversion-optimized websites.",
+    "image": "https://images.pexels.com/photos/1516644/pexels-photo-1516644.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "social": {
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  }
+]

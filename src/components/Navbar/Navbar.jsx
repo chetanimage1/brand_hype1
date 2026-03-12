@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          Digital Agency
+          brandhype
         </Link>
         <ul className="navbar-menu">
           <li><Link to="/">Home</Link></li>

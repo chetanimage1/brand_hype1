@@ -1,8 +1,11 @@
 import Hero from '../../components/Hero/Hero';
+import { useScrollAnimation } from '../../hooks/useScrollAnimation';
 import faq from '../../data/faq.json';
 import './Contact.css';
 
 function Contact() {
+  useScrollAnimation();
+
   return (
     <div className="contact-page">
       <Hero
@@ -13,7 +16,7 @@ function Contact() {
       <section className="contact-section">
         <div className="container">
           <div className="contact-grid">
-            <div className="contact-form-container">
+            <div className="contact-form-container animate-on-scroll fade-in-left">
               <h2>Send Us a Message</h2>
               <form className="contact-form">
                 <div className="form-group">
@@ -48,7 +51,7 @@ function Contact() {
               </form>
             </div>
 
-            <div className="contact-info-container">
+            <div className="contact-info-container animate-on-scroll fade-in-right">
               <h2>Contact Information</h2>
               <div className="contact-info">
                 <div className="info-item">
@@ -75,10 +78,10 @@ function Contact() {
 
       <section className="faq-section gray-bg">
         <div className="container">
-          <h2 className="section-title">Frequently Asked Questions</h2>
+          <h2 className="section-title animate-on-scroll fade-in-up">Frequently Asked Questions</h2>
           <div className="faq-grid">
-            {faq.map(item => (
-              <div key={item.id} className="faq-item">
+            {faq.map((item, index) => (
+              <div key={item.id} className={`faq-item animate-on-scroll fade-in-up stagger-${(index % 4) + 1}`}>
                 <h3 className="faq-question">{item.question}</h3>
                 <p className="faq-answer">{item.answer}</p>
               </div>

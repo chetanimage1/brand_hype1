@@ -30,7 +30,8 @@
   transition: all 0.3s;
 }
 
-.filter-button:hover {
+.filter-button:hover,
+.filter-button.active {
   background-color: #4A90E2;
   color: #fff;
 }

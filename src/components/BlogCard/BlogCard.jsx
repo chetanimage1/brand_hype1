@@ -1,8 +1,15 @@
+import { useNavigate } from 'react-router-dom';
 import './BlogCard.css';
 
 function BlogCard({ blog }) {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(`/blog/${blog.id}`, { state: { blog } });
+  };
+
   return (
-    <div className="blog-card">
+    <div className="blog-card" onClick={handleClick} style={{ cursor: 'pointer' }}>
       <img src={blog.image} alt={blog.title} className="blog-image" />
       <div className="blog-content">
         <div className="blog-meta">

@@ -1,8 +1,15 @@
+import { useNavigate } from 'react-router-dom';
 import './PortfolioCard.css';
 
 function PortfolioCard({ project }) {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/portfolio', { state: { selectedProject: project } });
+  };
+
   return (
-    <div className="portfolio-card">
+    <div className="portfolio-card" onClick={handleClick} style={{ cursor: 'pointer' }}>
       <img src={project.image} alt={project.title} className="portfolio-image" />
       <div className="portfolio-content">
         <span className="portfolio-category">{project.category}</span>

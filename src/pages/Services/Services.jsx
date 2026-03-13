@@ -1,4 +1,4 @@
-import Hero from '../../components/Hero/Hero';
+import Banner from '../../components/Banner/Banner';
 import ServiceCard from '../../components/ServiceCard/ServiceCard';
 import { useScrollAnimation } from '../../hooks/useScrollAnimation';
 import services from '../../data/services.json';
@@ -7,12 +7,27 @@ import './Services.css';
 function Services() {
   useScrollAnimation();
 
+  const bannerSlides = [
+    {
+      image: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      title: 'Our Services',
+      subtitle: 'Comprehensive digital marketing solutions tailored to your business needs'
+    },
+    {
+      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      title: 'SEO & Content Strategy',
+      subtitle: 'Dominate search rankings and engage your audience with compelling content'
+    },
+    {
+      image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      title: 'Digital Advertising',
+      subtitle: 'Maximize ROI with targeted campaigns across all major platforms'
+    }
+  ];
+
   return (
     <div className="services-page">
-      <Hero
-        title="Our Services"
-        subtitle="Comprehensive digital marketing solutions tailored to your business needs"
-      />
+      <Banner slides={bannerSlides} />
 
       <section className="services-section">
         <div className="container">

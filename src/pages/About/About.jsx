@@ -1,4 +1,4 @@
-import Hero from '../../components/Hero/Hero';
+import Banner from '../../components/Banner/Banner';
 import { useScrollAnimation } from '../../hooks/useScrollAnimation';
 import team from '../../data/team.json';
 import './About.css';
@@ -6,12 +6,27 @@ import './About.css';
 function About() {
   useScrollAnimation();
 
+  const bannerSlides = [
+    {
+      image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      title: 'About Us',
+      subtitle: "We're a team of passionate digital marketers dedicated to helping businesses succeed online"
+    },
+    {
+      image: 'https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      title: 'Our Mission',
+      subtitle: 'Delivering measurable results that drive real business growth through transparency and innovation'
+    },
+    {
+      image: 'https://images.pexels.com/photos/3184434/pexels-photo-3184434.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      title: 'Expert Team',
+      subtitle: 'Industry leaders committed to your success with proven strategies and creative excellence'
+    }
+  ];
+
   return (
     <div className="about">
-      <Hero
-        title="About Us"
-        subtitle="We're a team of passionate digital marketers dedicated to helping businesses succeed online"
-      />
+      <Banner slides={bannerSlides} />
 
       <section className="about-section">
         <div className="container">

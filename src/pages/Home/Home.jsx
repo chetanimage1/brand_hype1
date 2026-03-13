@@ -1,4 +1,4 @@
-import Hero from '../../components/Hero/Hero';
+import Banner from '../../components/Banner/Banner';
 import ServiceCard from '../../components/ServiceCard/ServiceCard';
 import PortfolioCard from '../../components/PortfolioCard/PortfolioCard';
 import TestimonialCard from '../../components/TestimonialCard/TestimonialCard';
@@ -12,14 +12,27 @@ import './Home.css';
 function Home() {
   useScrollAnimation();
 
+  const bannerSlides = [
+    {
+      image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      title: 'Elevate Your Brand with brandhype',
+      subtitle: 'Data-driven digital marketing strategies that transform businesses and accelerate growth'
+    },
+    {
+      image: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      title: 'Drive Growth with Strategic Marketing',
+      subtitle: 'Innovative solutions designed to maximize your ROI and expand your market reach'
+    },
+    {
+      image: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      title: 'Transform Your Digital Presence',
+      subtitle: 'Expert strategies that connect your brand with the right audience at the right time'
+    }
+  ];
+
   return (
     <div className="home">
-      <Hero
-        title="Elevate Your Brand with brandhype"
-        subtitle="Data-driven digital marketing strategies that transform businesses and accelerate growth"
-        ctaText="Get Started Today"
-        ctaLink="/contact"
-      />
+      <Banner slides={bannerSlides} />
 
       <section className="home-section clients-section">
         <div className="container">

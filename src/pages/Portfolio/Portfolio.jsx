@@ -1,4 +1,4 @@
-import Hero from '../../components/Hero/Hero';
+import Banner from '../../components/Banner/Banner';
 import PortfolioCard from '../../components/PortfolioCard/PortfolioCard';
 import { useScrollAnimation } from '../../hooks/useScrollAnimation';
 import portfolio from '../../data/portfolio.json';
@@ -7,12 +7,27 @@ import './Portfolio.css';
 function Portfolio() {
   useScrollAnimation();
 
+  const bannerSlides = [
+    {
+      image: 'https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      title: 'Our Portfolio',
+      subtitle: "See how we've helped businesses achieve remarkable growth"
+    },
+    {
+      image: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      title: 'Success Stories',
+      subtitle: 'Real results for real businesses across diverse industries'
+    },
+    {
+      image: 'https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      title: 'Proven Track Record',
+      subtitle: 'Delivering exceptional ROI and measurable business growth'
+    }
+  ];
+
   return (
     <div className="portfolio-page">
-      <Hero
-        title="Our Portfolio"
-        subtitle="See how we've helped businesses achieve remarkable growth"
-      />
+      <Banner slides={bannerSlides} />
 
       <section className="portfolio-section">
         <div className="container">

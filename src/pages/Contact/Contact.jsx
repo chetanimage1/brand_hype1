@@ -1,4 +1,4 @@
-import Hero from '../../components/Hero/Hero';
+import Banner from '../../components/Banner/Banner';
 import { useScrollAnimation } from '../../hooks/useScrollAnimation';
 import faq from '../../data/faq.json';
 import './Contact.css';
@@ -6,12 +6,27 @@ import './Contact.css';
 function Contact() {
   useScrollAnimation();
 
+  const bannerSlides = [
+    {
+      image: 'https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      title: 'Get In Touch',
+      subtitle: "Let's discuss how we can help grow your business"
+    },
+    {
+      image: 'https://images.pexels.com/photos/3182833/pexels-photo-3182833.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      title: 'Start Your Journey',
+      subtitle: 'Schedule a free consultation and discover your growth potential'
+    },
+    {
+      image: 'https://images.pexels.com/photos/3184398/pexels-photo-3184398.jpeg?auto=compress&cs=tinysrgb&w=1920',
+      title: 'Partner With Us',
+      subtitle: 'Join hundreds of businesses achieving remarkable results'
+    }
+  ];
+
   return (
     <div className="contact-page">
-      <Hero
-        title="Get In Touch"
-        subtitle="Let's discuss how we can help grow your business"
-      />
+      <Banner slides={bannerSlides} />
 
       <section className="contact-section">
         <div className="container">

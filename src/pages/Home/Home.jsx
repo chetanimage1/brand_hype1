@@ -1,4 +1,5 @@
 import Banner from '../../components/Banner/Banner';
+import ClientsCarousel from '../../components/ClientsCarousel/ClientsCarousel';
 import ServiceCard from '../../components/ServiceCard/ServiceCard';
 import PortfolioCard from '../../components/PortfolioCard/PortfolioCard';
 import TestimonialCard from '../../components/TestimonialCard/TestimonialCard';
@@ -35,15 +36,9 @@ function Home() {
       <Banner slides={bannerSlides} />
 
       <section className="home-section clients-section">
-        <div className="container">
+        <div className="clients-section-content">
           <h2 className="section-title animate-on-scroll fade-in-up">Trusted By Leading Brands</h2>
-          <div className="clients-grid">
-            {clients.map((client, index) => (
-              <div key={client.id} className={`client-logo animate-on-scroll scale-in stagger-${(index % 6) + 1}`}>
-                <img src={client.logo} alt={client.name} />
-              </div>
-            ))}
-          </div>
+          <ClientsCarousel clients={clients} />
         </div>
       </section>
 

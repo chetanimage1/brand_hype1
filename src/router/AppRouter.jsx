@@ -4,6 +4,7 @@ import Footer from '../components/Footer/Footer';
 import Home from '../pages/Home/Home';
 import About from '../pages/About/About';
 import Services from '../pages/Services/Services';
+import ServiceDetail from '../pages/ServiceDetail/ServiceDetail';
 import Portfolio from '../pages/Portfolio/Portfolio';
 import Blog from '../pages/Blog/Blog';
 import BlogDetail from '../pages/BlogDetail/BlogDetail';
@@ -17,6 +18,7 @@ function AppRouter() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/services/:id" element={<ServiceDetail />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:id" element={<BlogDetail />} />

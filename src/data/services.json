@@ -4,41 +4,137 @@
     "title": "Search Engine Optimization",
     "description": "Boost your online visibility and drive organic traffic with our data-driven SEO strategies. We optimize your website to rank higher on search engines.",
     "icon": "search",
-    "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "fullContent": "Search Engine Optimization is the foundation of digital visibility. Our comprehensive SEO services ensure your website ranks higher on search engines and attracts qualified organic traffic. We conduct thorough keyword research, optimize on-page elements, build high-quality backlinks, and continuously monitor performance metrics.",
+    "features": [
+      "Comprehensive keyword research and analysis",
+      "On-page optimization and technical SEO",
+      "High-quality backlink building",
+      "Content strategy and optimization",
+      "Local SEO services",
+      "Monthly performance reports and analytics"
+    ],
+    "benefits": [
+      "Increased organic traffic",
+      "Better search engine rankings",
+      "Cost-effective long-term results",
+      "Targeted audience reach",
+      "Improved website authority"
+    ]
   },
   {
     "id": 2,
     "title": "Social Media Marketing",
     "description": "Engage your audience and build brand loyalty across all major social platforms. We create compelling content that resonates with your target market.",
     "icon": "social",
-    "image": "https://images.pexels.com/photos/3998365/pexels-photo-3998365.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "image": "https://images.pexels.com/photos/3998365/pexels-photo-3998365.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "fullContent": "Build a powerful social media presence that connects with your audience. Our social media marketing strategies are designed to increase engagement, build community, and drive conversions. We manage all major platforms and create content that resonates with your target demographic.",
+    "features": [
+      "Social media strategy development",
+      "Content creation and scheduling",
+      "Community management and engagement",
+      "Influencer collaborations",
+      "Social media advertising",
+      "Performance analytics and reporting"
+    ],
+    "benefits": [
+      "Increased brand awareness",
+      "Higher engagement rates",
+      "Loyal community building",
+      "Direct customer interaction",
+      "Viral marketing opportunities"
+    ]
   },
   {
     "id": 3,
     "title": "Google Ads Management",
     "description": "Maximize your ROI with targeted PPC campaigns. Our certified experts manage your Google Ads to ensure every dollar counts.",
     "icon": "ads",
-    "image": "https://images.pexels.com/photos/3172863/pexels-photo-3172863.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "image": "https://images.pexels.com/photos/3172863/pexels-photo-3172863.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "fullContent": "Get immediate visibility and qualified leads with our Google Ads management services. Our certified professionals create and optimize campaigns that deliver results. We focus on maximizing ROI while minimizing your advertising spend through strategic bidding and continuous optimization.",
+    "features": [
+      "Campaign strategy and setup",
+      "Keyword research and selection",
+      "Ad copy creation and testing",
+      "Bid management and optimization",
+      "Landing page optimization",
+      "Conversion tracking and reporting"
+    ],
+    "benefits": [
+      "Immediate search visibility",
+      "Highly targeted traffic",
+      "Measurable ROI",
+      "Quick campaign adjustments",
+      "Control over ad spend"
+    ]
   },
   {
     "id": 4,
     "title": "Content Marketing",
     "description": "Tell your brand story with high-quality content that educates, entertains, and converts. From blog posts to video content, we've got you covered.",
     "icon": "content",
-    "image": "https://images.pexels.com/photos/4103320/pexels-photo-4103320.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "image": "https://images.pexels.com/photos/4103320/pexels-photo-4103320.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "fullContent": "Content is king, and we're the content creators. Our team produces high-quality, engaging content across multiple formats. From blog posts to videos and infographics, we create content that tells your brand story and drives customer engagement and conversions.",
+    "features": [
+      "Blog writing and publishing",
+      "Video content creation",
+      "Infographic design",
+      "Whitepaper and case study development",
+      "Content calendar management",
+      "SEO-optimized content strategy"
+    ],
+    "benefits": [
+      "Establish thought leadership",
+      "Improved SEO rankings",
+      "Higher engagement rates",
+      "Increased time on site",
+      "Better customer education"
+    ]
   },
   {
     "id": 5,
     "title": "Email Marketing",
     "description": "Nurture leads and retain customers with personalized email campaigns that drive engagement and sales.",
     "icon": "email",
-    "image": "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "image": "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "fullContent": "Email marketing remains one of the highest ROI marketing channels. We create personalized, targeted email campaigns that nurture leads, retain customers, and drive repeat sales. Our data-driven approach ensures every email delivers value to your subscribers.",
+    "features": [
+      "Email list building and segmentation",
+      "Campaign design and copywriting",
+      "Automation and drip campaigns",
+      "A/B testing and optimization",
+      "Deliverability management",
+      "Advanced analytics and reporting"
+    ],
+    "benefits": [
+      "High ROI on investment",
+      "Direct customer communication",
+      "Improved customer retention",
+      "Increased repeat sales",
+      "Personalized customer experience"
+    ]
   },
   {
     "id": 6,
     "title": "Web Design & Development",
     "description": "Create stunning, user-friendly websites that convert visitors into customers. Our designs are responsive, fast, and optimized for conversions.",
     "icon": "web",
-    "image": "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "image": "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "fullContent": "Your website is your digital storefront. We design and develop responsive, fast-loading websites that provide exceptional user experiences and drive conversions. Every website we build is optimized for search engines and conversion rate optimization.",
+    "features": [
+      "Responsive web design",
+      "User experience optimization",
+      "Fast performance and loading times",
+      "SEO-friendly structure",
+      "E-commerce functionality",
+      "Ongoing maintenance and support"
+    ],
+    "benefits": [
+      "Professional online presence",
+      "Improved user engagement",
+      "Higher conversion rates",
+      "Mobile-friendly design",
+      "Better search rankings"
+    ]
   }
 ]

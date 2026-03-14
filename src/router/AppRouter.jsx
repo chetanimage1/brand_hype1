@@ -9,10 +9,17 @@ import Portfolio from '../pages/Portfolio/Portfolio';
 import Blog from '../pages/Blog/Blog';
 import BlogDetail from '../pages/BlogDetail/BlogDetail';
 import Contact from '../pages/Contact/Contact';
+import { useScrollToTop } from '../hooks/useScrollToTop';
+
+function ScrollToTop() {
+  useScrollToTop();
+  return null;
+}
 
 function AppRouter() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
